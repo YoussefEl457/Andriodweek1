@@ -1,0 +1,9 @@
+Kleurenpalet:
+
+-> Rood
+
+-> Bruin
+
+-> Grijs
+
+-> Zwart
