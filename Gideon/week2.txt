@@ -1,20 +1,13 @@
 wat heb ik gedaan ?
-<<<<<<< HEAD
 - Het aanpassen van de interface / buttons aanmaken 
-=======
-- Research gedaan over de snake game development
->>>>>>> 969ef6e08e695f163ab90a0ac330b7c77ae78d9f
 
 wat ga ik doen?
-- Ik heb de taak researcher en developer gekozen 
+- ik ga de code aanpassen voor het verbetern van de app
 
 waar ben ik tegenaan gelopen?
-<<<<<<< HEAD
+
 - nog niks alles verliep wel goed
  
-=======
-- niks 
->>>>>>> 969ef6e08e695f163ab90a0ac330b7c77ae78d9f
 
 
 
