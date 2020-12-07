@@ -1,0 +1,17 @@
+Week 1:
+Youssef: Ik ben de groepsleider en ik help de rest van de groep. Ik ontwikkel ook met
+        de rest van onze groep
+
+Sameer: Is de Designer en zorgt er voor dat alles dat we maken wel gelijk is aan onze doel.
+        hij corrigeert de rest van de groep als dat niet zo is. Hij ontwikkeld ook met de
+        de rest van onze groep
+
+Gideon: Is de Researcher, hij zorgt voor handige info over onze doelen. zoals code, materialen, etc..
+         hij is net als de rest van de groep ook een ontwikkelaar
+
+Walid: Is de Planner, Hij zorgt voor deadlines en zorgt er voor dat hij ons meld als wij achterlopen
+        met het ontwikkelen van ons doel. Hij houdt onze Trello board up-to-date. hij is net als de rest van de groep ook een ontwikkelaar 
+
+
+---Trello board---
+https://trello.com/b/w6h8XMlZ/android-opdracht
