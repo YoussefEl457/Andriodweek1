@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/iv_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".QuizKeuze">
+
+    <ImageView
+        android:id="@+id/AppBg"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/daquiz"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/select_a_category"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/music"
+        android:layout_width="91dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="25dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/music" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="19dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Music"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/games"
+        android:layout_width="134dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="25dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/game" />
+
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="19dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Games"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/Geography"
+        android:layout_width="163dp"
+        android:layout_height="132dp"
+        android:background="#00FFFFFF"
+        android:layout_marginTop="25dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/earth" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Geography"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:radius="100dp"
+        android:backgroundTint="@color/black"
+        android:text="Back" />
+</LinearLayout>

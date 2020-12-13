@@ -1,11 +1,13 @@
 wat heb ik gedaan ?
-- Research gedaan over de snake game development
+- Het aanpassen van de interface / buttons aanmaken 
 
 wat ga ik doen?
-- Ik heb de taak researcher en developer gekozen 
+- ik ga de code aanpassen voor het verbetern van de app
 
 waar ben ik tegenaan gelopen?
-- niks 
+
+- nog niks alles verliep wel goed
+ 
 
 
 
