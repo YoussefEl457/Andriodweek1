@@ -12,7 +12,7 @@ import android.widget.*
 import androidx.core.content.ContextCompat
 import androidx.core.widget.TintableCompoundDrawablesView
 
-class GeografieQuiz : AppCompatActivity(), View.OnClickListener {
+class GamesQuiz : AppCompatActivity(), View.OnClickListener {
 
     private var mCurrentPosition:Int = 1
     private var mQuestionList: ArrayList<vragenLayout>? = null
@@ -21,12 +21,12 @@ class GeografieQuiz : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_geografie_quiz)
+        setContentView(R.layout.activity_games_quiz)
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
 
-        mQuestionList = GeografieConstants.getQuestions()
+        mQuestionList = GamesConstants.getQuestions()
 
 
         setQuestions()
