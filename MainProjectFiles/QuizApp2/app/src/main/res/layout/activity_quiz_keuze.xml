@@ -14,14 +14,14 @@
         android:layout_width="wrap_content"
         android:layout_height="112dp"
         android:layout_marginBottom="10dp"
-        app:srcCompat="@drawable/daquiz"
+        android:src="@drawable/daquiz"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:text="@string/select_a_category"
+        android:text="Selecteer een categorie"
         android:textColor="@color/white"
         android:textSize="20dp" />
 
@@ -39,7 +39,7 @@
         android:layout_height="19dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="Music"
+        android:text="Muziek"
         android:textColor="@color/white" />
 
     <ImageButton
@@ -60,7 +60,7 @@
         android:textColor="@color/white" />
 
     <ImageButton
-        android:id="@+id/Geography"
+        android:id="@+id/geography"
         android:layout_width="163dp"
         android:layout_height="132dp"
         android:background="#00FFFFFF"
@@ -73,7 +73,7 @@
         android:layout_height="19dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="Geography"
+        android:text="Aardrijkskunde"
         android:textColor="@color/white" />
 
     <Button
@@ -83,5 +83,5 @@
         android:layout_marginTop="30dp"
         android:radius="100dp"
         android:backgroundTint="@color/black"
-        android:text="Back" />
+        android:text="Terug" />
 </LinearLayout>
