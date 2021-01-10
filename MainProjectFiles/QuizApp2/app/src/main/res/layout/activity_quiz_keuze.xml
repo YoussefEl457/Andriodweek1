@@ -27,9 +27,9 @@
 
     <ImageButton
         android:id="@+id/music"
-        android:layout_width="91dp"
-        android:layout_height="128dp"
-        android:layout_marginTop="25dp"
+        android:layout_width="105dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="10dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         android:src="@drawable/music" />
@@ -44,9 +44,9 @@
 
     <ImageButton
         android:id="@+id/games"
-        android:layout_width="134dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="25dp"
+        android:layout_width="166dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="10dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         android:src="@drawable/game" />
@@ -61,10 +61,10 @@
 
     <ImageButton
         android:id="@+id/geography"
-        android:layout_width="163dp"
-        android:layout_height="132dp"
+        android:layout_width="179dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="10dp"
         android:background="#00FFFFFF"
-        android:layout_marginTop="25dp"
         android:scaleType="fitCenter"
         android:src="@drawable/earth" />
 
