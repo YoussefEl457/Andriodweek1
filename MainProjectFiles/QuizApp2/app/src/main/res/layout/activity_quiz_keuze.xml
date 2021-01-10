@@ -80,7 +80,7 @@
         android:id="@+id/back"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:radius="100dp"
         android:backgroundTint="@color/black"
         android:text="Terug" />
