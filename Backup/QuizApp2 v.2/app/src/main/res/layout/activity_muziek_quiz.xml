@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iv_background"
+    android:fillViewport="true"
+    tools:context=".MuziekQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="342dp"
+            android:layout_height="132dp"
+            android:src="@drawable/daquiz"
+            />
+
+
+        <TextView
+            android:id="@+id/muziek_vraag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/optie_border"
+            android:text="Vraag"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/progress_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false"
+                />
+            <TextView
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                android:text="0/10"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/optie1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/optie_border"
+            android:radius="50dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:text="Optie 1"
+            />
+
+        <TextView
+            android:id="@+id/optie2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/optie_border"
+            android:radius="50dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:text="Optie 2"
+            />
+
+        <TextView
+            android:id="@+id/optie3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/optie_border"
+            android:radius="50dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:text="Optie 3"
+            />
+
+        <Button
+            android:id="@+id/volgende_vraag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/black"
+            android:text="Volgende"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

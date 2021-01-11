@@ -21,12 +21,12 @@ class GeografieQuiz : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_games_quiz)
+        setContentView(R.layout.activity_geografie_quiz)
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
 
-        mQuestionList = GamesConstants.getQuestions()
+        mQuestionList = GeografieConstants.getQuestions()
 
 
         setQuestions()
